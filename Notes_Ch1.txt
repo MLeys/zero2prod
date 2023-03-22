@@ -1,0 +1,23 @@
+CI Pipeline Notes ( continueous integration)
+
+... 
+watch - monitors source cod to trigger demands everytime a file changes
+  - reduces comliation time
+
+test - also takes care of build before running tests. 
+
+tarpaulin - measure code coverage of project
+  -will compute code coverage for your app code, ignoring test functions
+
+clippy - Linter, checks code to ensure it follows to language rules and constraints
+
+rustfmt - auto formats code according to general or specific rules
+
+cargo-autdit - checks if vulverabilites have been reported for any crates in your dependencies
+cargo-deny - checks vulverabilites of dependency tree ( requires upfront config )
+
+Pre-built configs:
+-GitHub Actions
+-CircleCI
+-GitLabCI
+-Travis
